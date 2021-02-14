@@ -45,4 +45,11 @@ func main() {
 	favoriteSnack = "Chocolate"
 	fmt.Println("My favorite snack is " + favoriteSnack)
 	
+	// Zero Values
+	var emptyInt int8
+	var emptyFloat float32;
+	var emptyString string;
+	
+	fmt.Println(emptyInt, emptyFloat, emptyString)	
+	
 }
