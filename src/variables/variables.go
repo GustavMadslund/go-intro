@@ -57,4 +57,9 @@ func main() {
 	var hoursInDay = 24
 	fmt.Println("You have spent", daysOnVacation * hoursInDay, "hours on vacation")
 	
+	//Default int type
+	var cupsOfCoffeeConsumed int
+	cupsOfCoffeeConsumed = 12
+	fmt.Println(cupsOfCoffeeConsumed)
+	
 }
