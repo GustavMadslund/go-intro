@@ -80,4 +80,15 @@ func main() {
 	amount, unit := 10, "doll hairs"
 	fmt.Println(amount, unit, ", that's expensive...")
 	
+	//Review
+	var congrats string
+	congrats = "Congratulations"
+	congrats += "!!!"
+	fmt.Println(congrats)
+	
+	var challenge string = "What else can you do?"
+	fmt.Println(challenge)
+	
+	reminder := "Practice is important!"
+	fmt.Println(reminder)
 }
