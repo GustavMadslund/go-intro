@@ -40,4 +40,9 @@ func main() {
 	var flavorScale float32 = 5.8
 	fmt.Println(flavorScale)
 	
+	//Strings
+	var favoriteSnack string
+	favoriteSnack = "Chocolate"
+	fmt.Println("My favorite snack is " + favoriteSnack)
+	
 }
