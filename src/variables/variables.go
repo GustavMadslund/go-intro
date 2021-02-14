@@ -71,4 +71,13 @@ func main() {
 	taxCalculation *= .08875
 	fmt.Println("Purchase of", coolSneakers + niceNecklace, "with 8.875% sales tax", taxCalculation, "equal to", coolSneakers + niceNecklace + taxCalculation)
 
+	//Multiple Variable Declaration
+	var magicNum, powerLevel int32
+	magicNum = 2048
+	powerLevel = 9001
+	fmt.Println("magicNum is:", magicNum, "powerLevel is:", powerLevel)
+	
+	amount, unit := 10, "doll hairs"
+	fmt.Println(amount, unit, ", that's expensive...")
+	
 }
