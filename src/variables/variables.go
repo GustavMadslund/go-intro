@@ -29,5 +29,15 @@ func main() {
 	
 	const earthsGravity = 9.80665
 	
+	//Numeric types
 	var jellybeanCounter int8
+	fmt.Println(jellybeanCounter)
+	
+	var numOfFlavors int
+	numOfFlavors = 57
+	fmt.Println(numOfFlavors)
+	
+	var flavorScale float32 = 5.8
+	fmt.Println(flavorScale)
+	
 }
