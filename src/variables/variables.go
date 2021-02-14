@@ -52,4 +52,9 @@ func main() {
 	
 	fmt.Println(emptyInt, emptyFloat, emptyString)	
 	
+	//Inferring Type
+	daysOnVacation := 2
+	var hoursInDay = 24
+	fmt.Println("You have spent", daysOnVacation * hoursInDay, "hours on vacation")
+	
 }
