@@ -7,5 +7,7 @@ Repository for learning basics of Go.
 - Use 'go run' to build and execute. Does not save executeable file in location.  
 - Every package should have a package comment "Package *packagename*". To be used in godoc.
 - Use 'go doc *packagename*' to see documentation on a specific package.
-- Unused imports are not allowed and will cause an error
-- Unused variables are not allowed and will cause an error
+- Unused imports are not allowed and will cause an error.
+- Unused variables are not allowed and will cause an error.
+- Unassigned variables have default values.
+- Decides the type for *default* int types depending on the architecture of the computer it is running on.
