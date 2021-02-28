@@ -11,3 +11,4 @@ Repository for learning basics of Go.
 - Unused variables are not allowed and will cause an error.
 - Unassigned variables have default values.
 - Decides the type for *default* int types depending on the architecture of the computer it is running on.
+- Delay a function call to the end of current scope by using *defer*. Useful for logging and file writing.
