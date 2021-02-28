@@ -8,7 +8,7 @@ import (
 func isItLateInNewYork() string {
 	var lateMessage string
 	
-	t:= time.Now()
+	t := time.Now()
 	tz, _ := time.LoadLocation("America/New_York")
 	nyHour := t.In(tz).Hour()
 	if nyHour < 5 {
@@ -18,7 +18,7 @@ func isItLateInNewYork() string {
 	} else if nyHour < 19 {
 		lateMessage = "I guess it's getting kind of late"
 	} else {
-		lateMessage = "it's late"
+		lateMessage = "It's late"
 	}
 	
 	return lateMessage
