@@ -13,3 +13,5 @@ Repository for learning basics of Go.
 - Decides the type for *default* int types depending on the architecture of the computer it is running on.
 - Delay a function call to the end of current scope by using *defer*. Useful for logging and file writing.
 - Go is a *pass-by-value* language. The value of an argument is passed to a function rather than the argument itself.
+- An address is where a value is stored.
+- Pointers are variables that store an address.
